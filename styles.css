@@ -1,0 +1,94 @@
+
+body{
+    background-color: seashell;
+    text-align: center;
+}
+.top-container
+{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+.top-container h1
+{
+    color: #f8b400;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.grid
+{
+    display: flex; /*To use the flexbox model to wrap elements*/
+    flex-wrap: wrap; /*grid elements to align/wrap within themselves*/
+    width: 560px; /* Because the grid has 28x28 squares. And each square is of 20 pixels*/
+    height: 560px;
+    border: solid black;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.grid div 
+{
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot 
+{
+    background-color: #c060a1;
+    border: 5px solid seashell;
+    box-sizing: border-box;
+}
+
+.wall
+{
+    background-color: #363636;
+    
+
+}
+
+.power-pellet
+{
+    background-color: #b6eb7a;
+    border-radius: 10px;
+}
+
+.pac-man
+{
+    background-color: #f8b400;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+}
+
+.chi
+{
+    background-color: brown;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+}
+.kiki
+{
+    background-color: pink;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+}
+.coco
+{
+    background-color: black;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+}
+.chanel
+{
+    background-color: coral;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.24);
+}
+.scared-ghost
+{
+    background-color: royalblue;
+    border: 0px;
+    border-radius: 3px;
+}
